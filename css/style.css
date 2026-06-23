@@ -433,29 +433,35 @@ button:hover {
         font-size: 12px;
     }
 
+   
+
     .questions {
-        width: 90%; 
+        width: 95%;
+        margin: 0 auto;
     }
+
     .faq-grid {
-        width: 100%;
+        display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
+        width: 100%;
     }
 
     .faq-card {
         width: 100%;
+        max-width: 100%;
         padding: 15px;
+        box-sizing: border-box;
     }
 
     .faq-question {
+        width: 100%;
         font-size: 14px;
         white-space: normal;
         word-break: break-word;
+        box-sizing: border-box;
     }
 
-    .faq-answer {
-        width: 100%;
-    }
 
     .faq-answer p {
         word-wrap: break-word;
