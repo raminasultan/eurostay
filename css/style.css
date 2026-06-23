@@ -437,6 +437,29 @@ button:hover {
         width: 90%; 
     }
 
+    .faq-grid {
+        width: 100%;
+    }
+
+    .faq-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .faq-question {
+        width: 100%;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    .faq-answer {
+        width: 100%;
+    }
+
+    .faq-answer p {
+        word-wrap: break-word;
+    }
+
     
      .questions button {
         width: 200px;
