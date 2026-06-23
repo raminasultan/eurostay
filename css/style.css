@@ -247,7 +247,7 @@ button:hover {
     padding: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     transition: 0.25s ease;
-    width: auto; /* убрали 70% */
+    width: auto;
 }
 
 
@@ -439,6 +439,8 @@ button:hover {
 
     .faq-grid {
         width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .faq-card {
